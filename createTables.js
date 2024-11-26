@@ -23,7 +23,7 @@ con.connect(async err=>{
             if (index !== data[Object.keys(data)[0].length -1]) columns += ","
         });
         
-        console.log('column: ', column);
+        console.log('column: ', columns);
         
         con.query(`CREATE TABLE ${Object.keys(data)[0]}(${columns})` ,(err, result) => {
             if (err) throw err;
