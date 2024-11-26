@@ -5,6 +5,14 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var schoolRouter = require('./routes/schools');
+var teacherRouter = require('./routes/teachers');
+var classroomRouter = require('./routes/classrooms')
+var studentsRouter = require('./routes/students')
+
+
+
+
 
 var app = express();
 
@@ -17,4 +25,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
+app.use('/schools',schoolRouter);
+app.use('/students',studentsRouter)
+app.use('/teachers',teacherRouter)
+app.use('classrooms',classroomRouter)
 module.exports = app;
+
