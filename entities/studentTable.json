@@ -1,0 +1,3 @@
+{
+    "student":["id int AUTO_INCREAMENT PRIMARY KEY, name text, password text, classroom_id"]
+}
