@@ -1,3 +1,3 @@
 {
-    "school":["id int AUTO_INCREAMENT PRIMARY KEY", "name text", "school_code int"]
+    "school":["id int AUTO_INCREMENT PRIMARY KEY", "name text", "school_code int"]
 }

@@ -2,7 +2,7 @@
     "classroom":[
         "id INT AUTO_INCREMENT PRIMARY KEY",
         "grade TEXT",
-        "index INT",
+        "classroom_index INT",
         "teacher_id INT"
     ]
 }
