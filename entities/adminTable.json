@@ -1,0 +1,8 @@
+{
+    "admin": [
+        "id INT AUTO_INCREMENT PRIMARY KEY",
+        "name TEXT",
+        "password TEXT",
+        "school_id INT"
+    ]
+}
